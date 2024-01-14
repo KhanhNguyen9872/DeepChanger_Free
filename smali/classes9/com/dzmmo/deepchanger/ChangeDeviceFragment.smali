@@ -1134,6 +1134,7 @@
   .catch Ljava/lang/IndexOutOfBoundsException; { :L5 .. :L14 } :L18
   .registers 15
   .line 544
+    return-void
     if-nez p1, :L0
   .line 545
     return-void
@@ -1650,11 +1651,11 @@
     move-result-object v1
     const-string v2, "spoofDevice__build_device"
     invoke-interface { v0, v2, v1 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
-  .line 385
-    iget-object v1, p1, Lcom/dzmmo/deepchanger/utils/Device;->Build:Lcom/dzmmo/deepchanger/utils/Device$Build;
-    iget-object v1, v1, Lcom/dzmmo/deepchanger/utils/Device$Build;->HARDWARE:Ljava/lang/String;
-    const-string v2, "spoofDevice__build_hardware"
-    invoke-interface { v0, v2, v1 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  //.line 385
+  //  iget-object v1, p1, Lcom/dzmmo/deepchanger/utils/Device;->Build:Lcom/dzmmo/deepchanger/utils/Device$Build;
+  //  iget-object v1, v1, Lcom/dzmmo/deepchanger/utils/Device$Build;->HARDWARE:Ljava/lang/String;
+  //  const-string v2, "spoofDevice__build_hardware"
+  //  invoke-interface { v0, v2, v1 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
   .line 386
     iget-object v1, p0, Lcom/dzmmo/deepchanger/ChangeDeviceFragment;->mEditText__build_manufacturer:Landroid/widget/EditText;
     invoke-virtual { v1 }, Landroid/widget/EditText;->getText()Landroid/text/Editable;
@@ -1695,16 +1696,16 @@
     move-result-object v1
     const-string v2, "spoofDevice__build_serial"
     invoke-interface { v0, v2, v1 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
-  .line 391
-    iget-object v1, p1, Lcom/dzmmo/deepchanger/utils/Device;->Build:Lcom/dzmmo/deepchanger/utils/Device$Build;
-    iget-object v1, v1, Lcom/dzmmo/deepchanger/utils/Device$Build;->USERAGENT:Ljava/lang/String;
-    const-string v2, "spoofDevice__build_useragent"
-    invoke-interface { v0, v2, v1 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
-  .line 392
-    iget-object v1, p1, Lcom/dzmmo/deepchanger/utils/Device;->Build:Lcom/dzmmo/deepchanger/utils/Device$Build;
-    iget-object v1, v1, Lcom/dzmmo/deepchanger/utils/Device$Build;->MAC_ADDRESS:Ljava/lang/String;
-    const-string v2, "spoofDevice__build_mac_address"
-    invoke-interface { v0, v2, v1 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  //.line 391
+  //  iget-object v1, p1, Lcom/dzmmo/deepchanger/utils/Device;->Build:Lcom/dzmmo/deepchanger/utils/Device$Build;
+  //  iget-object v1, v1, Lcom/dzmmo/deepchanger/utils/Device$Build;->USERAGENT:Ljava/lang/String;
+  //  const-string v2, "spoofDevice__build_useragent"
+  //  invoke-interface { v0, v2, v1 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  //.line 392
+  //  iget-object v1, p1, Lcom/dzmmo/deepchanger/utils/Device;->Build:Lcom/dzmmo/deepchanger/utils/Device$Build;
+  //  iget-object v1, v1, Lcom/dzmmo/deepchanger/utils/Device$Build;->MAC_ADDRESS:Ljava/lang/String;
+  //  const-string v2, "spoofDevice__build_mac_address"
+  //  invoke-interface { v0, v2, v1 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
   .line 393
     iget-object v1, p0, Lcom/dzmmo/deepchanger/ChangeDeviceFragment;->mEditText__build_sim_serial:Landroid/widget/EditText;
     invoke-virtual { v1 }, Landroid/widget/EditText;->getText()Landroid/text/Editable;
@@ -1986,18 +1987,18 @@
     invoke-virtual { v7, v8 }, Ljava/util/Random;->nextInt(I)I
     move-result v8
     add-int/lit8 v8, v8, 28
-  .line 449
-  .local v8, "randomNum":I
-    const-string v9, "spoofDevice__version_release"
-    const-string v10, "REL"
-    invoke-interface { v0, v9, v10 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
-  .line 450
-    invoke-static { v8 }, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
-    move-result-object v10
-    const-string v11, "spoofDevice__version_sdk_int"
-    invoke-interface { v0, v11, v10 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
-  .line 451
-    invoke-interface { v0, v9, v6 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  //.line 449
+  //.local v8, "randomNum":I
+  //   const-string v9, "spoofDevice__version_release"
+  //   const-string v10, "REL"
+  //   invoke-interface { v0, v9, v10 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  // .line 450
+  //  invoke-static { v8 }, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+  //  move-result-object v10
+  //  const-string v11, "spoofDevice__version_sdk_int"
+  //  invoke-interface { v0, v11, v10 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  //.line 451
+  //  invoke-interface { v0, v9, v6 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
   .line 453
     invoke-interface { v0 }, Landroid/content/SharedPreferences$Editor;->apply()V
   .line 454
