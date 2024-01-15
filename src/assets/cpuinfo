@@ -1,47 +1,74 @@
+Processor	: AArch64 Processor rev 14 (aarch64)
 processor	: 0
-Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
-CPU implementer	: 0x41
+BogoMIPS	: 38.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
 CPU architecture: 8
-CPU variant	: 0x0
-CPU part	: 0xd03
-CPU revision	: 4
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
 
 processor	: 1
-Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
-CPU implementer	: 0x41
+BogoMIPS	: 38.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
 CPU architecture: 8
-CPU variant	: 0x0
-CPU part	: 0xd03
-CPU revision	: 4
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
 
 processor	: 2
-Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
-CPU implementer	: 0x41
+BogoMIPS	: 38.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
 CPU architecture: 8
-CPU variant	: 0x0
-CPU part	: 0xd03
-CPU revision	: 4
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
 
 processor	: 3
-Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
-CPU implementer	: 0x41
+BogoMIPS	: 38.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
 CPU architecture: 8
-CPU variant	: 0x0
-CPU part	: 0xd03
-CPU revision	: 4
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
 
 processor	: 4
-Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
-CPU implementer	: 0x53
+BogoMIPS	: 38.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
 CPU architecture: 8
-CPU variant	: 0x1
-CPU part	: 0x001
-CPU revision	: 1
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
 
 processor	: 5
-Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
-CPU implementer	: 0x53
+BogoMIPS	: 38.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
 CPU architecture: 8
-CPU variant	: 0x1
-CPU part	: 0x001
-CPU revision	: 1
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+processor	: 6
+BogoMIPS	: 38.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+processor	: 7
+BogoMIPS	: 38.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+Hardware	: Qualcomm Technologies, Inc SM8150

@@ -1204,7 +1204,7 @@
     const-string v2, "active"
     invoke-interface { v0, v1, v2 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
     const-string v3, "deepchanger_date_expire"
-    const-string v4, "2034-12-31"
+    const-string v4, "2077-12-31"
     invoke-interface { v0, v3, v4 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
   .line 462
     invoke-interface { v0 }, Landroid/content/SharedPreferences$Editor;->apply()V

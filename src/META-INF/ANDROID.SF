@@ -1,6 +1,6 @@
 Signature-Version: 1.0
 Created-By: Android Gradle 8.0.2
-SHA-256-Digest-Manifest: w/FNyaKnc/3DFsx/E1uLAF1Qk5nZloewiYqE0+HIrsI=
+SHA-256-Digest-Manifest: zsvGc/Uswwv2ll76MlODXuNAxj9wmHijKS0xaqBtjyw=
 X-Android-APK-Signed: 2,3
 
 Name: AndroidManifest.xml
@@ -224,7 +224,7 @@ Name: androidsupportmultidexversion.txt
 SHA-256-Digest: /ozB4iWCv4KQhBIH6rZJtXMfwltgyz6k/votYXVgXCA=
 
 Name: assets/cpuinfo
-SHA-256-Digest: hfeUjY19olWm1GegSXcwJpzKTg6Bvz1Dgz5JBrfRoEo=
+SHA-256-Digest: mMb+dwFvkHutAjSwLXkpluhgkIcvUH+AvC/Wv9v1u9k=
 
 Name: assets/crashlytics-build.properties
 SHA-256-Digest: YQAKW23iYTxD82aFOiZ+xD065wf71sxsw6B+d8ADmok=
@@ -233,7 +233,7 @@ Name: assets/main.jar
 SHA-256-Digest: 96vu2aYF1rgO5jLFgG74d8suss26RRNPl1vYY2V17Jw=
 
 Name: assets/version
-SHA-256-Digest: jxGwhMzKPs/C0TF0khcFO1K1uI3K69yRyIB3D+uc4A4=
+SHA-256-Digest: YkdXvmtZIOtzL5xwCEi1hojER1D9wbkaofS/2Do6JiY=
 
 Name: assets/xposed_init
 SHA-256-Digest: UnfXq2z7n8Ke7R8BWEQnr4pi/nck6+SeNTRGknra9IY=
@@ -266,13 +266,13 @@ Name: classes6.dex
 SHA-256-Digest: cJCYiDFdijNep9lm57458CGRIbVajUtfKWM1F1dUSs4=
 
 Name: classes7.dex
-SHA-256-Digest: ySZOG9x+tfQH3dQCvfvi7eFMjnKOcHpYOYFpgwnTJUs=
+SHA-256-Digest: 4eN6u2o5oEuzqWj/DnXRoh/Dml84wVobhS5vYVXo5g8=
 
 Name: classes8.dex
 SHA-256-Digest: Afo3f5vOdZljEmSnsfK9Tcc0yiZLl7A8hZFT+bSe87g=
 
 Name: classes9.dex
-SHA-256-Digest: RnUmpzxW/5iaY83mhFxyIBUFL38bF5WJOYKjElCnc9k=
+SHA-256-Digest: xoy90KgtMJcrCmEZpV9qeTaRFy0I13HdoRc8KisAXaE=
 
 Name: firebase-ads.properties
 SHA-256-Digest: 7VFHw70bu9Uv4KDIhmNrjsMnMCP14Ul/B9pQyDopaes=
@@ -1355,7 +1355,7 @@ Name: res/drawable-hdpi-v4/ic_action_home.png
 SHA-256-Digest: ACK38HwjniMJY5LsUtswf2EYVZRj+65B1VIlsphiu3U=
 
 Name: res/drawable-hdpi-v4/ic_action_rechange.png
-SHA-256-Digest: MLtBPwlrjs5pi/N/a8fe80q39JMyT2Gqzf4Jyid28R4=
+SHA-256-Digest: CKIPucTzSrXmi+xjW8Klynju91Le/OJBYWV57o6rfRQ=
 
 Name: res/drawable-hdpi-v4/ic_action_setting.png
 SHA-256-Digest: roP0yMNwPHCcsg5SO4VlSDpammF7/jwe98Z0F3GKBF0=
@@ -1558,7 +1558,7 @@ Name: res/drawable-mdpi-v4/ic_action_home.png
 SHA-256-Digest: pfpqQBA+3rzq1KrplyetqfD7JgyqNm4zrTqL5He0N5c=
 
 Name: res/drawable-mdpi-v4/ic_action_rechange.png
-SHA-256-Digest: OUOjy9S9551ezKzGM9xFsiMbemlZr2xrkcoKw3MNMQA=
+SHA-256-Digest: O+e3ZoU5VXcarPY319GCRtnIUPiE9cVUePRiP6Mdi0c=
 
 Name: res/drawable-mdpi-v4/ic_action_setting.png
 SHA-256-Digest: QUT0EuZ9gEdV2xO1WIdGH2q8ggCz0SopF0iLGhtR3eg=
@@ -1804,7 +1804,7 @@ Name: res/drawable-xhdpi-v4/ic_action_home.png
 SHA-256-Digest: OfjuTHqI/OiwE7HN1FAUr4urUSe2JLPs//bwIw4Quxc=
 
 Name: res/drawable-xhdpi-v4/ic_action_rechange.png
-SHA-256-Digest: Dvv3sUP/W4TamcKRbJagpOx2/fJFgVCTUzlMWzlUmtM=
+SHA-256-Digest: wSmU/vdHNMSSdV7CiiNJhMitd5ynqqc4p8VRqksriR4=
 
 Name: res/drawable-xhdpi-v4/ic_action_setting.png
 SHA-256-Digest: y12tGnUfDsyHQQcbjR3cixoGqJYtHQYMvo9isVDoegQ=
@@ -1994,7 +1994,7 @@ Name: res/drawable-xxhdpi-v4/ic_action_home.png
 SHA-256-Digest: h14IlgXBhDRj/f8CZ/N7OumpSd2zVXZ6oiU7t0zcazU=
 
 Name: res/drawable-xxhdpi-v4/ic_action_rechange.png
-SHA-256-Digest: mIAir7cCdBwTb4MhedrBT+Tezzk+SyRsae18mStqCcw=
+SHA-256-Digest: jt2m2rd5X28GQku+7Q3mW2QyI4z+LPSeCs4p8tx+Qd4=
 
 Name: res/drawable-xxhdpi-v4/ic_action_setting.png
 SHA-256-Digest: /kNPnHVEaJveB7TWrE0ycn2xfdf09r7g5LbX8retDG8=
@@ -2080,7 +2080,7 @@ Name: res/drawable-xxxhdpi-v4/ic_action_home.png
 SHA-256-Digest: 6sqZGsLr77U7hmztWc1UTTBj8woykDxZsX8AcLr8xWc=
 
 Name: res/drawable-xxxhdpi-v4/ic_action_rechange.png
-SHA-256-Digest: SnbfLGfq5P7I9TwDRQCDCnrjQllmojUBF1x8F+BpIq4=
+SHA-256-Digest: XQ9H1GCrSHTMoZxzV84w2bW2qezrldYUf9KHS+gyBKY=
 
 Name: res/drawable-xxxhdpi-v4/ic_action_setting.png
 SHA-256-Digest: AYjWG5edxcifcLdAbZBCYiNMwSumyihStyZ2Sf59xU0=
