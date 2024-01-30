@@ -1984,11 +1984,11 @@
   .line 447
   .local v7, "rand":Ljava/util/Random;
     const/16 v8, 28
-  //.line 449
-  //.local v8, "randomNum":I
-  //  const-string v9, "spoofDevice__version_release"
-  //  const-string v10, "REL"
-  //  invoke-interface { v0, v9, v10 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  .line 449
+  .local v8, "randomNum":I
+    const-string v9, "spoofDevice__version_release"
+    const-string v10, "9"
+    invoke-interface { v0, v9, v10 }, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
   //.line 450
   //  invoke-static { v8 }, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
   //  move-result-object v10
